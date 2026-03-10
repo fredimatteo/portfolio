@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+    <!-- Sfondo quadrato arrotondato -->
+    <rect width="32" height="32" rx="7" fill="#0f0f0f"/>
+    <!-- Lettera M -->
+    <path d="M4 24V8h3l5 8 5-8h3v16h-3V14l-4 6.5h-2L7 14v10H4z" fill="#f5f4f0"/>
+    <!-- Lettera F -->
+    <path d="M22 8h8v2.5h-5.2v4h4.5v2.5h-4.5V24H22V8z" fill="#e85d26"/>
+</svg>
