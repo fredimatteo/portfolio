@@ -68,8 +68,7 @@ export default function ContactForm() {
             Lavoriamo insieme.
           </h1>
           <p className="font-body text-lg text-muted leading-relaxed mb-12">
-            Hai un progetto in mente? Sono disponibile per lavori freelance. Scrivimi
-            un messaggio e ti rispondo entro 24 ore.
+            Hai un progetto in mente? Scrivimi un messaggio e ti rispondo entro 24 ore.
           </p>
 
           {formState === "sent" ? (

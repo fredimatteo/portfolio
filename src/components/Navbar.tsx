@@ -73,12 +73,6 @@ export default function Navbar() {
           {/* Desktop CTA + theme toggle */}
           <div className="hidden md:flex items-center gap-3">
             <ThemeToggle isDark={isDark} onToggle={toggleTheme}/>
-            <a
-              href="mailto:matteofredi.developer@gmail.com"
-              className="inline-flex items-center gap-2 bg-ink text-chalk font-display font-semibold text-sm px-5 py-2.5
-              rounded-full hover:bg-accent transition-colors duration-200">
-              Contattami
-            </a>
           </div>
 
           {/* Mobile: theme toggle + hamburger */}
@@ -119,13 +113,6 @@ export default function Navbar() {
                 </Link>
               </li>
             ))}
-            <li className="pt-2">
-              <a
-                href="mailto:matteofredi.developer@gmail.com"
-                className="block px-3 py-2.5 bg-ink text-chalk rounded-lg font-display font-semibold text-sm text-center hover:bg-accent transition-colors">
-                Contattami
-              </a>
-            </li>
           </ul>
         </Container>
       </div>
@@ -139,7 +126,7 @@ function ThemeToggle({isDark, onToggle}: { isDark: boolean; onToggle: () => void
     <button
       onClick={onToggle}
       aria-label={isDark ? "Passa al tema chiaro" : "Passa al tema scuro"}
-      className="w-10 h-10 flex items-center justify-center rounded-lg hover:bg-base-200 transition-colors text-base-content/60 hover:text-base-content"
+      className="w-10 h-10 flex items-center justify-center rounded-lg hover:bg-base-200 transition-colors text-base-content/60 hover:text-base-content cursor-pointer"
     >
       {isDark ? (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
