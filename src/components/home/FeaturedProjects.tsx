@@ -10,9 +10,6 @@ export default function FeaturedProjects() {
         {/* Section header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-12">
           <div>
-            <p className="font-mono text-xs text-muted uppercase tracking-widest mb-2">
-              Lavori selezionati
-            </p>
             <h2 className="font-display font-bold text-3xl md:text-4xl text-ink">
               Progetti in evidenza
             </h2>

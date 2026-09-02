@@ -26,10 +26,10 @@ const dmMono = DM_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "Matteo Fredi — Full Stack Developer",
+    default: "Matteo Fredi | Software Developer",
     template: "%s | Matteo Fredi",
   },
-  description: "Sviluppatore Full Stack specializzato in Python, React e TypeScript. Disponibile per progetti freelance.",
+  description: "Software Developer specializzato in Python, React e TypeScript. Disponibile per progetti freelance.",
   metadataBase: new URL("https://matteofredi.it"),
   icons: {
     icon: "/favicon.svg",

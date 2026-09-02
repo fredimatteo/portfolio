@@ -28,8 +28,7 @@ export default function ProjectsPage() {
             Progetti
           </h1>
           <p className="font-body text-lg text-muted max-w-xl leading-relaxed">
-            Una raccolta di cose che ho costruito — lavori per clienti, esperimenti
-            personali e strumenti open-source.
+            Qui trovi alcuni dei progetti su cui ho lavorato, tra lavori per clienti, progetti personali e open source.
           </p>
         </div>
 

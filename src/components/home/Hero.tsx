@@ -1,18 +1,18 @@
 import Link from "next/link";
 import Container from "@/components/Container";
 
-const stack = ["Python", "FastAPI", "Go", "React", "TypeScript", "TailwindCSS", "PostgreSQL"];
+const stack = ["Python", "FastAPI", "GO", "React", "Next.js"];
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-base-100">
+    <section className="relative min-h-[70vh] flex items-center overflow-hidden bg-base-100">
       {/* Background grid pattern */}
       <div
-        className="absolute inset-0 opacity-[0.03]"
-        style={{
-          backgroundImage: `linear-gradient(#0f0f0f 1px, transparent 1px), linear-gradient(90deg, #0f0f0f 1px, transparent 1px)`,
-          backgroundSize: "60px 60px",
-        }}
+        className="
+        absolute inset-0 opacity-[0.03]
+        bg-[linear-gradient(var(--color-ink)_1px,transparent_1px),linear-gradient(90deg,var(--color-ink)_1px,transparent_1px)]
+        bg-size-[60px_60px]
+        "
       />
 
       {/* Accent blob */}
@@ -20,35 +20,16 @@ export default function Hero() {
 
       <Container className="relative py-20 md:py-28">
         <div className="max-w-3xl">
-          {/* Eyebrow */}
-          <div className="inline-flex items-center gap-2 mb-6 animate-fade-up opacity-0-init" style={{ animationFillMode: "forwards" }}>
-            <span className="w-2 h-2 rounded-full bg-accent animate-pulse" />
-            <span className="font-mono text-sm text-muted tracking-widest uppercase">
-              Disponibile per freelance
-            </span>
-          </div>
-
           {/* Headline */}
           <h1
             className="font-display font-extrabold text-4xl md:text-6xl lg:text-7xl leading-[1.05] tracking-tight text-ink mb-6 animate-fade-up opacity-0-init animate-delay-100"
             style={{ animationFillMode: "forwards" }}
           >
-            Full Stack
+            Software
             <br />
-            <span className="text-accent">Developer</span>
+            <span className="text-accent">developer</span>
             <br />
-            {/*& Problem Solver.*/}
           </h1>
-
-          {/* Sub */}
-          <p
-            className="font-body text-lg md:text-xl text-muted leading-relaxed max-w-xl mb-10 animate-fade-up opacity-0-init animate-delay-200"
-            style={{ animationFillMode: "forwards" }}
-          >
-            Sviluppo applicazioni web veloci e curate — dalle API Python alle
-            interfacce React.
-            {/*Basato in Italia, lavoro da remoto in tutta Europa.*/}
-          </p>
 
           {/* CTA buttons */}
           <div
@@ -59,7 +40,7 @@ export default function Hero() {
               href="/projects"
               className="inline-flex items-center gap-2 bg-ink text-chalk font-display font-semibold px-6 py-3 rounded-full hover:bg-accent transition-colors duration-200 text-sm md:text-base"
             >
-              Guarda i progetti
+              Scopri i progetti
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>

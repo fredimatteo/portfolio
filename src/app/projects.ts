@@ -15,7 +15,7 @@ export const projects: Project[] = [
     id: 1,
     title: "Prenotino",
     description:
-      "Sistema di gestione prenotazioni full stack per realtà sportive — gestisce i campi, pagamenti e disponibilità in tempo reale.",
+      "Soluzione digitale per la gestione completa delle attività sportive, dalle prenotazioni dei campi alla gestione dei pagamenti.",
     longDescription:
       "Backend Python/FastAPI con PostgreSQL e frontend React con accesso basato su ruoli.",
     technologies: ["React", "TypeScript", "Python", "FastAPI", "PostgreSQL", "TailwindCSS", "Stripe"],
@@ -26,7 +26,7 @@ export const projects: Project[] = [
     id: 2,
     title: "LinkMeTo",
     description:
-      "Aggregatore di link personale in stile Linktree, con temi personalizzabili, analytics sui click e un'interfaccia admin semplicissima.",
+      "Aggregatore di link personale, con temi personalizzabili, analytics sui click e un'interfaccia admin semplicissima.",
     longDescription:
       "Clone di Linktree con funzionalità extra: analytics per link, temi colore personalizzati ed editor drag-and-drop in React.",
     technologies: ["React", "TypeScript", "TailwindCSS", "Supabase"],
@@ -36,10 +36,11 @@ export const projects: Project[] = [
   },
   {
     id: 3,
-    title: "A.P.S Resana — Sito Web",
+    title: "A.P.S Resana",
     description:
-      "Sito professionale per un cliente locale — pulito, veloce e ottimizzato SEO, con CMS personalizzato per aggiornare i contenuti.",
+      "Sito istituzionale per un'associazione sociale veneta. Ottimizzazione SEO e CMS personalizzato per aggiornare i contenuti.",
     technologies: ["React", "TypeScript", "TailwindCSS", "Netlify"],
+    demoUrl: "https://sanfrancescoresana.it",
     featured: false,
     year: 2026,
   }
