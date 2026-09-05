@@ -51,6 +51,14 @@ export default function AboutPage() {
             <h1 className="font-display font-extrabold text-4xl md:text-5xl text-ink mb-4">
               Pillole su di me
             </h1>
+
+            <a
+              href="/matteo_fredi_cv.pdf"
+              download
+              className="inline-flex items-center gap-2 font-mono text-xs uppercase tracking-widest text-ink border border-border rounded-full px-4 py-2 hover:bg-accent hover:text-white hover:border-accent transition-colors"
+            >
+              Il mio CV
+            </a>
           </div>
 
           {/* Bio */}
